@@ -5,8 +5,9 @@
 // @description  Grab Etsy order emails and send them to an API endpoint
 // @author       vondraussen
 // @match        https://www.etsy.com/your/orders/sold*
+// @match        https://www.etsy.com/your/orders/sold/new*
 // @icon         https://www.etsy.com/images/favicon.ico
-// @grant        GM.xmlHttpRequest
+// @grant        GM_xmlhttpRequest
 // @updateURL    https://raw.githubusercontent.com/vondraussen/tampermonkey-scripts/main/scripts/etsy_email_grabber.user.js
 // @downloadURL  https://raw.githubusercontent.com/vondraussen/tampermonkey-scripts/main/scripts/etsy_email_grabber.user.js
 // ==/UserScript==
